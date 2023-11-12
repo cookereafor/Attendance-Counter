@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="design.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Attendance Counter</title>
+  </head>
+  <body>
+    <div class="counter-container">
+      <h1>Attendance Counter</h1>
+      <div class="display">
+        <p class="counter-display" id="counter-display">0</p>
+      </div>
+    </br>
+      <div class="button-container">
+        <button type="button" class="button" id="increment-button">ADD</button>
+        <br />
+        <button type="button" class="button" id="decrement-button">REMOVE</button>
+        <br />
+        <button type="button" class="button" id="save-button">SAVE</button>
+        <br />
+        <button type="button" class="button" id="reset-button">RESET</button>
+      </div>
+      <div class="totals">
+        <p>Totals: <span class="totals-display" id="totals-display">0</span> Students</p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
